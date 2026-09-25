@@ -1,0 +1,65 @@
+# --- Build outputs (plain Makefile build) ----------------------------------
+/spice-vdagentd
+/spice-vdagent
+*.o
+
+# --- Xcode -------------------------------------------------------------------
+build/
+DerivedData/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+*.xcuserstate
+xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# --- Swift Package Manager -----------------------------------------------
+.build/
+.swiftpm/
+.netrc
+
+# --- Autotools (Linux build, if this tree still carries it) -----------------
+# Generated at ./configure time from Makefile.am/configure.ac - never
+# tracked, regenerated locally every time. NOTE: deliberately does NOT
+# ignore the top-level `Makefile` - that one is this repo's actual macOS
+# build entrypoint and is meant to be committed.
+Makefile.in
+aclocal.m4
+autom4te.cache/
+compile
+config.log
+config.status
+configure
+depcomp
+install-sh
+missing
+stamp-h1
+test-driver
+.deps/
+.dirstamp
+
+# --- Homebrew ----------------------------------------------------------------
+*.bottle.*
+*.bottle.tar.gz
+
+# --- launchd / local install testing -----------------------------------------
+*.plist.bak
+
+# --- macOS ----------------------------------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# --- Logs ----------------------------------------------------------------
+*.log
+
+# --- Editors ----------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
