@@ -6,7 +6,6 @@ class SpiceVdagent < Formula
   license "GPL-3.0-only"
 
   depends_on macos: :big_sur
-  depends_on xcode: :build
   depends_on "pkg-config" => :build
   depends_on "glib"
   depends_on "spice-protocol"
