@@ -2,7 +2,7 @@ class SpiceVdagent < Formula
   desc "SPICE guest agent for macOS VMs (clipboard-sharing daemon + launcher)"
   homepage "https://github.com/balthisar/homebrew-spice-vdagent"
   url "https://github.com/balthisar/homebrew-spice-vdagent/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "tbd"
+  sha256 "0f0946f3239c68dfbce616f3a2700d9b860bddcee5dd2ce6775e801e645e2307"
   license "GPL-3.0-only"
 
   depends_on macos: :big_sur
